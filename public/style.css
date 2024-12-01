@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0; 
+    /* background-color: bisque;   */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    max-width: 100%; /* Prevents horizontal scrolling */
+    font-size: 1rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.2fr 0.5fr 0.2fr 0.3fr 0.5fr 0.2fr 0.2fr 0.2fr ;
+    grid-template-areas: 
+    "header header"
+    "about about"
+    "education education"
+    "skills skills"
+    "projects projects"
+    "experience experience"
+    "certifications certifications"
+    "contact contact";
+    /* gap: 0.5em; */
+    margin: 0 0.5em;
+}
+
+header {
+    grid-area: header;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5em;
+    padding:0.5em;
+    background-color:rgb(69, 69, 69);
+}
+
+header span{
+    /* background-color: rgb(248, 194, 128);
+    border: 1px solid rgb(248, 194, 128); */
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 0.5em;
+    color:white;
+}
+
+#menu{
+    margin: 1em 0;
+}
+
+.icon{
+    display:none;
+    color:white;
+}
+
+#menu  a {
+    /* color: rgb(14, 12, 12); */
+    color:white;
+    text-decoration: none;
+    list-style-type:none;
+    padding: 1em;  
+    font-weight: bold;
+}
+
+#menu a:hover{
+    background-color: rgb(248, 194, 128);
+    color: black;
+    border: 1px solid rgb(248, 194, 128);
+    border-radius: 5px;
+    font-weight:lighter;
+}
+
+#about {
+    grid-area: about;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+    grid-template-areas: 
+    "about-title about-title"
+    "my-image about-me"
+    "my-name my-name";
+    row-gap: 0.5em;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    background-color: bisque;  
+}
+
+#about-title{
+    grid-area: about-title;
+    text-align: left;
+}
+
+#my-image{
+    grid-area: my-image;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#my-name{
+    grid-area:my-name;
+}
+
+#education{
+    grid-area: education;
+    padding:1em;
+    background-color: bisque;  
+}
+
+#edu-img { 
+    width: 60px;
+    height: 60px;
+    margin: 0 1em;
+}
+
+#skills{
+    grid-area: skills;
+    padding:1em;
+    background-color: bisque;  
+}
+
+#skills img{
+    width: 85px;
+    height: 85px;
+    vertical-align: middle;  
+}
+
+.flex-container { 
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+#projects {
+    grid-area:projects;
+    padding:1em;
+    background-color: bisque;  
+}
+
+.project-details {
+    text-align: center;  
+}
+
+.project-details img {
+    width: 100px;
+    height: 100px;
+}
+
+#experience {
+    grid-area: experience;
+    padding:1em;
+    background-color: bisque;  
+}
+
+#certifications {
+    grid-area: certifications;
+    padding:1em;
+    background-color: bisque;  
+}
+
+#contact{
+    grid-area: contact;
+    padding:1em; 
+    background-color:rgb(69, 69, 69);
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contact img {
+    width: 40px;
+    height: 40px;
+}
+
+@media only screen  and (max-width:500px){
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.5fr 0.2fr 0.3fr 0.5fr 0.2fr 0.2fr 0.2fr ;
+        grid-template-areas: 
+        "header"
+        "about"
+        "education"
+        "skills"
+        "projects"
+        "experience"
+        "certifications"
+        "contact";
+        /* grid-gap: 0.2em; */
+        margin:0;
+        padding:0.5em;
+    }
+
+    #about {
+        grid-template-columns:1fr;
+        grid-template-rows: 0.2fr 0.5fr 0.2fr 0.2fr;
+        grid-template-areas: 
+        "about-title"
+        "my-image"
+        "my-name"
+        "about-me";
+        row-gap: 0.5em;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+    #menu a{
+        display:block;
+    }
+
+    #my-portfolio, #menu{
+        display:none;
+    }
+
+    .icon{
+        display: block;
+    }
+
+    .flex-container{
+        flex-direction: column;
+    }
+
+    header{
+        flex-direction: column;
+        align-items: start;
+    }
+}

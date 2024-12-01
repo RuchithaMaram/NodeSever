@@ -1,0 +1,15 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "Displays details about dogs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "author": "Ruchita Maram",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.10.0"
+  }
+}

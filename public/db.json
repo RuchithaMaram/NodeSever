@@ -1,0 +1,76 @@
+{
+    "dogs": [
+        {
+            "dog_name": "Bella",
+            "dog_breed": "Labrador Retriever",
+            "dog_age": 3,
+            "dog_color": "Yellow",
+            "dog_life_span": "10-12 years",
+            "dog_image": "https://img.freepik.com/free-photo/ai-generated-labrador-retriever-dog-picture_23-2150644976.jpg"
+        },
+        {
+            "dog_name": "Max",
+            "dog_breed": "German Shepherd",
+            "dog_age": 5,
+            "dog_color": "Black and Tan",
+            "dog_life_span": "9-13 years",
+            "dog_image": "https://c1.wallpaperflare.com/preview/869/569/242/dog-animal-pets-german-shepherd.jpg"
+        },
+        {
+            "dog_name": "Luna",
+            "dog_breed": "Bulldog",
+            "dog_age": 4,
+            "dog_color": "White",
+            "dog_life_span": "8-10 years",
+            "dog_image": "https://c4.wallpaperflare.com/wallpaper/522/664/44/english-bulldog-puppy-dog-muzzle-wallpaper-thumb.jpg"
+        },
+        {
+            "dog_name": "Charlie",
+            "dog_breed": "Golden Retriever",
+            "dog_age": 2,
+            "dog_color": "Golden",
+            "dog_life_span": "10-12 years",
+            "dog_image": "https://media.istockphoto.com/id/506756303/photo/golden-retriever.jpg?s=612x612&w=0&k=20&c=lSlI8QTutSk6qi5oyzBpDSQHJapG_qZoQUjhQpEoWUQ="
+        },
+        {
+            "dog_name": "Lucy",
+            "dog_breed": "Poodle",
+            "dog_age": 6,
+            "dog_color": "Black",
+            "dog_life_span": "12-15 years",
+            "dog_image": "https://p4.wallpaperbetter.com/wallpaper/163/786/333/poodle-dog-puppy-wallpaper-preview.jpg"
+        },
+        {
+            "dog_name": "Rocky",
+            "dog_breed": "Beagle",
+            "dog_age": 4,
+            "dog_color": "Tri-color",
+            "dog_life_span": "12-15 years",
+            "dog_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzo3zmaTnB88tXuJNKfliRpWnoC8pedLr6NQ&s"
+        },
+        {
+            "dog_name": "Molly",
+            "dog_breed": "Shih Tzu",
+            "dog_age": 2,
+            "dog_color": "Black and White",
+            "dog_life_span": "10-16 years",
+            "dog_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpImB4nkcX2qFUXbi7-ENWo7IQJX5MeKSwhA&s"
+        },
+        {
+            "dog_name": "Maggie",
+            "dog_breed": "Siberian Husky",
+            "dog_age": 5,
+            "dog_color": "Gray and White",
+            "dog_life_span": "12-15 years",
+            "dog_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ56STZP-KPd2hUnmcR_zhF9oZViqaDdxiHg&s"
+        },
+        {
+            "dog_name": "Coco",
+            "dog_breed": "Chihuahua",
+            "dog_age": 2,
+            "dog_color": "Brown",
+            "dog_life_span": "14-16 years",
+            "dog_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT35SzGhUCZKawWsnW1sWZzzYifhsO3zTLr8w&s"
+        }
+    ]
+}
